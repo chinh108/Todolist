@@ -1,0 +1,59 @@
+.LoginForm{
+    width: 100%;
+}
+
+.SpinnerContainer{
+    width: 100%;
+    text-align: center;
+}
+
+.Title{
+    text-align: center;
+}
+
+.ButtonGroup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+Button{
+    display: block;
+    margin-top: 9px;
+    width: 90%;
+}
+
+.LoginButton{
+    height: 2rem;
+    border: 0.4px solid #b7b8af;
+    border-radius: 8px;
+    font-size: larger;
+    font-weight: 420;
+    background-color: rgb(252, 229, 229);
+    transition: linear 0.2s;
+}
+
+.LoginButton:hover{
+    border: none;
+    background-color: #a6c483;
+    transform: scale(1.02);
+    color: rgb(252, 222, 222);
+
+}
+
+.RegisterButton{
+    height: 2rem;
+    border: 0.6px solid #a6a79d;
+    border-radius: 7px;
+    font-size: larger;
+    font-weight: 420;
+    background-color: rgb(223, 185, 185);
+    transition: ease-in-out 0.2s;
+}
+
+.RegisterButton:hover{
+    color: #92848a;
+    background-color: #b1d5f3;
+    transform: scale(1.02);
+}

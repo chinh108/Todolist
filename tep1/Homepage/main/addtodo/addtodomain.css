@@ -1,0 +1,31 @@
+.addtodomain{
+    margin-top: auto;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addtodomain input {
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.2s;
+}
+
+.addtodomain input{
+    width: 80%;
+    text-align: center;
+    padding: 8px;
+    height: 20px;
+    background-color: greenyellow;
+    border: none;
+    border-radius: 2px;
+}
+
+.addtodomain input:focus{
+    outline: none;
+    border-bottom: 4px solid black;
+}
+
+.addtodomainBtn:hover{   
+    cursor: pointer;
+}

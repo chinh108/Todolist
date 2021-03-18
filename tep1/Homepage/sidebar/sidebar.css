@@ -1,0 +1,15 @@
+.SideBar{
+    flex: 1;
+    background-color: #8c319e;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3rem;
+    color: white;
+}
+
+@media(max-width: 700px){
+    .SideBar{
+        display: none;
+    }
+}

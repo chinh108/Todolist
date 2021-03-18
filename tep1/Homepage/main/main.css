@@ -1,0 +1,50 @@
+.MainDisplay{
+    width: 100%;
+    background-color: rgb(224, 212, 212);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding-bottom: 30px;
+    margin-top: 3.3rem;
+    padding: 20px 3px;
+    overflow-y: scroll;
+    
+}
+
+.TaskListArea{
+    padding-right: 5px;
+    padding-left: 0px;
+}
+
+.row{
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    height: 100%;
+    
+}
+
+.col-lg-3{
+    display: inline-block;
+    margin: 30px;
+}
+
+.MainDisplay:hover::-webkit-scrollbar-thumb{
+    background-color: #bac4c0;
+}
+
+.MainDisplay:hover::-webkit-scrollbar{
+    width: 5px;
+}
+
+.TaskListOption{
+    width: 55px;
+    font-size: 18;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.TaskListOption:hover{
+    cursor: pointer;
+}
